@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Simple DirectMedia Layer - biblioteka miksująca próbki dźw
 Summary(pt_BR.UTF-8):	SDL3 - Biblioteca para mixagem
 Name:		SDL3_mixer
 Version:	3.2.2
-Release:	1
+Release:	2
 License:	Zlib-like
 Group:		Libraries
 #Source0Download: https://github.com/libsdl-org/SDL_mixer/releases
@@ -109,6 +109,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_libdir}/libSDL3_mixer.so
 %{_libdir}/cmake/SDL3_mixer
+%dir %{_includedir}/SDL3_mixer
 %{_includedir}/SDL3_mixer/SDL_mixer.h
 %{_pkgconfigdir}/sdl3-mixer.pc
 %{_mandir}/man3/*.3.*
