@@ -2,13 +2,13 @@ Summary:	Simple DirectMedia Layer - Sample Mixer Library
 Summary(pl.UTF-8):	Simple DirectMedia Layer - biblioteka miksująca próbki dźwiękowe
 Summary(pt_BR.UTF-8):	SDL3 - Biblioteca para mixagem
 Name:		SDL3_mixer
-Version:	3.2.2
-Release:	2
+Version:	3.2.4
+Release:	1
 License:	Zlib-like
 Group:		Libraries
 #Source0Download: https://github.com/libsdl-org/SDL_mixer/releases
 Source0:	https://github.com/libsdl-org/SDL_mixer/releases/download/release-%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	413c8188458ac0405450f67bb98eac35
+# Source0-md5:	cab3946e5347f832f5ec9d1053812470
 URL:		https://github.com/libsdl-org/SDL_mixer
 BuildRequires:	SDL3-devel >= 3.4.0
 BuildRequires:	cmake >= 3.16
